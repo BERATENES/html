@@ -1,0 +1,48 @@
+<!DOCTYPE>
+<html lang ="TR">
+<meta charset="utf-8"/>
+<head>
+<h1>TABLO<h1>
+<hr>
+</head>
+<body>
+<table border="1" cellpadding="5">
+ <tr>
+  <th> ürün adı </th>
+  <th> kategori </th>
+  <th> adet </th>
+  <th> fiyat </th>
+  <th> toplam </th>
+ </tr>
+ <tr>
+  <td> akıllı telefon </td>
+  <td> elektronik </td>
+  <td> 10 </td>
+  <td> 400 </td>
+  <td> 40,000 </td>
+ </tr>
+<tr>
+  <td> bilgisayar </td>
+  <td> elektronik </td>
+  <td> 5 </td>
+  <td> 7000 </td>
+  <td> 35,000 </td>
+ </tr>
+<tr>
+  <td> sandalye </td>
+  <td> mobilya </td>
+  <td> 12 </td>
+  <td> 600 </td>
+  <td> 7,200 </td>
+ </tr>
+<tr>
+  <td> gahva makinası </td>
+  <td> mutfak </td>
+  <td> 8 </td>
+  <td> 900 </td>
+  <td> 7,200 </td>
+ </tr>
+
+ </table>
+</body>
+</html>

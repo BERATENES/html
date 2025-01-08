@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<htmllang="tr">
+<head>
+<metacharset"utf-8"/>
+</head>
+<body>
+<br>ilim ilim bilmektir</br>
+<br>ilim kendini bilmektir</br>
+<br>sen kendini bilmezsen</br>
+<br>ya nice okumaktır</br>
+<hr>
+<h2>BİZDEN HABERLER</H2>
+<P>meslek eğitiminde<strong>1000 oluliyilestirme projesi</strong> kapsamındaki<mark>TÜM OKULLARIN</mark>yoneticileriyle toplantı yapıldı</P>
+<h2>BİLİŞİM TEMELLERİ</h2>
+<b>text-formatting language:</b>
+<em> metin biçimlendirme dili</em>
+<i>html,nroff</i>
+<hr>
+Türkçesi varken </br>
+<del> logo </del> :belirke
+<del> kampus </del>: yerleşke  
+<del> vizyon 
+</del>: görüş
+</br> </br>
+</br>
+<hr>
+<p><strong>İSTİKLAL MARŞI</strong></p>
+ <pre> Korkma, sönmez bu şafaklarda yüzen al sancak;
+ Sönmeden yurdumun üstünde tüten en son ocak.
+ O benim milletimin yıldızıdır, parlayacak;
+ O benimdir, o benim milletimindir ancak.
+ 
+    Çatma, kurban olayım çehreni ey nazlı hilâl!
+    Kahraman ırkıma bir gül… ne bu şiddet bu celâl?
+    Sana olmaz dökülen kanlarımız sonra helâl,
+    Hakkıdır, Hakk’a tapan, milletimin istiklâl.</pre>
+<hr>
+ H<sub>2</sub>O bileşiği hayatın, C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> bile
+şiği ise vücudun temel ihtiyaç maddelerinden biridir. </br>
+ <hr>
+ (x+y)<sup>2</sup>=x<sub>2</sub>+2xy+y<sub>2</sub>
+<hr>
+</body>
+</head>

@@ -1,0 +1,56 @@
+
+<html>
+<table border="1" cellpadding="10">
+    <tr>
+        <th> </th>
+        <th>1.Ders<br/>8:00<br/>8:40</th>
+        <th>2.Ders<br>8:50<br/>9:30</th>
+        <th>3.Ders<br>9:40<br/>10:20</th>
+        <th>4.Ders<br>10:30<br/>11:10</th>
+        <th>5.Ders<br>11:20<br/>12:00</th>
+        <th>6.Ders<br>12:10<br/>12:50</th>
+        <th>7.Ders<br>13:30<br/>14:10</th>
+        <th>8.Ders<br>14:20<br/>15:00</th>
+        <th>9.Ders<br>15:10<br/>15:50</th>
+        <th>10.Ders<br>16:00<br/>16:40</th>
+
+    </tr>
+    <tr>
+        <td>Pazartesi</td>
+        <td style="text-align: center;"colspan="2"><br/> </td>
+        <td style="text-align: center;"colspan="5">Mobil<br/> </td>
+        <td>Girişimcilik</td>
+        <td>Trafik</td>
+        <td></td>
+        
+
+    </tr>
+      <tr>
+        <td>Salı</td>
+        <td style="text-align: center;"colspan="2">Edebiyat<br/> </td>
+        <td style="text-align: center;"colspan="8">WEB<br/> </td>
+       
+      </tr> 
+      <tr>
+        <td>Çarşamba</td>
+        <td style="text-align: center;"colspan="2">Edebiyat<br/> </td>
+        <td style="text-align: center;"colspan="2">Matematik<br/> </td>
+        <td style="text-align: center;"colspan="2">Beden<br/> </td>>
+        <td>Rehberlik</td>
+        <td style="text-align: center;"colspan="2">Beden<br/> </td>
+        <td>Edebiyat</td>
+      </tr>
+      <tr>
+      <td>Perşembe</td>
+      <td style="text-align: center;"colspan="2">Din<br/> </td>
+      <td style="text-align: center;"colspan="4">Grafik<br/> </td>
+      <td style="text-align: center;"colspan="2">İngilizce<br/> </td>
+      <td style="text-align: center;"colspan="2">Felsefe<br/> </td>
+        </tr>
+        <td>Cuma</td>
+        <td style="text-align: center;"colspan="2">Matematik<br/> </td>
+        <td style="text-align: center;"colspan="2">Tarih<br/> </td>
+        <td style="text-align: center;"colspan="2">Din<br/> </td>
+        <td style="text-align: center;"colspan="4"><br/> </td>
+        </tr><br/>
+    </table>

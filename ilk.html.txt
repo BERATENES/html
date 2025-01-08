@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang = "tr">
+<head>
+<meta charset = "utf-8"/>
+<title>Merhaba HTML</title>
+</head>
+<body>
+<b>MERHABA DÜNYA<b>
+<p>bu benim ilk sayfam<p>
+<h1>MERHABA DÜNYA</h1>
+<h2>MERHABA DÜNYA</h2>
+<h3>MERHABA DÜNYA</h3>
+<h4>MERHABA DÜNYA</h4>
+<h5>MERHABA DÜNYA</h5>
+<h6>MERHABA DÜNYA</h6>
+<i>ZAFER TURİZİM<i>
+</body>
+</html>

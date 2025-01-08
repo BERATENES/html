@@ -1,0 +1,138 @@
+<!DOCKTYPE html>
+<html lang="tr">
+<head>
+
+<title> LİSTE ETİKETLERİ </title>
+<meta charset="utf-8"/>
+
+</head>
+<body>
+
+<h1> Listeleme Etiketleri </h1>
+<h2> Sıralı Liste </h2>
+<ol type = "A">
+
+<li> Vatanseverlik </li>
+<li> yardımlaşmak </li>
+<li> sorumluluk </li>
+<li> merhamet </li>
+<li> dürütlük </li>
+<li> hoşgörü </li>
+<li> saygı </li>
+<li> sevgi</li>
+
+</ol>
+<hr>
+<h2> Sıralı Liste </h2>
+<ol type = "A" start="4">
+
+<li> Vatanseverlik </li>
+<li> yardımlaşmak </li>
+<li> sorumluluk </li>
+<li> merhamet </li>
+<li> dürütlük </li>
+<li> hoşgörü </li>
+<li> saygı </li>
+<li> sevgi</li>
+
+</ol>
+<hr>
+<h2> Sıralı Liste </h2>
+<ol type = "1" start="10" reversed>
+
+<li> Vatanseverlik </li>
+<li> yardımlaşmak </li>
+<li> sorumluluk </li>
+<li> merhamet </li>
+<li> dürütlük </li>
+<li> hoşgörü </li>
+<li> saygı </li>
+<li> sevgi</li>
+
+</ol>
+<hr>
+<h2> Sıralı Liste </h2>
+<ol type = "I">
+
+<li> Vatanseverlik </li>
+<li> yardımlaşmak </li>
+<li> sorumluluk </li>
+<li> merhamet </li>
+<li> dürütlük </li>
+<li> hoşgörü </li>
+<li> saygı </li>
+<li> sevgi</li>
+
+</ol>
+<hr>
+<h2> Sırasız Liste </h2>
+
+<ul>
+<li> Vatanseverlik </li>
+<li> yardımlaşmak </li>
+<li> sorumluluk </li>
+<li> merhamet </li>
+<li> dürütlük </li>
+<li> hoşgörü </li>
+<li> saygı </li>
+<li> sevgi</li>
+
+</ul>
+<hr>
+<h2> Sırasız Liste </h2>
+
+<ul type="square">
+<li> Vatanseverlik </li>
+<li> yardımlaşmak </li>
+<li> sorumluluk </li>
+<li> merhamet </li>
+<li> dürütlük </li>
+<li> hoşgörü </li>
+<li> saygı </li>
+<li> sevgi</li>
+
+</ul>
+<hr>
+<h2> Sırasız Liste </h2>
+
+<ul type="circle">
+<li> Vatanseverlik </li>
+<li> yardımlaşmak </li>
+<li> sorumluluk </li>
+<li> merhamet </li>
+<li> dürütlük </li>
+<li> hoşgörü </li>
+<li> saygı </li>
+<li> sevgi</li>
+
+</ul>
+<hr>
+<h2> Sırasız Liste </h2>
+
+<ul type="disc">
+<li> Vatanseverlik </li>
+<li> yardımlaşmak </li>
+<li> sorumluluk </li>
+<li> merhamet </li>
+<li> dürütlük </li>
+<li> hoşgörü </li>
+<li> saygı </li>
+<li> sevgi</li>
+
+</ul>
+<hr>
+
+<h2> Tanım Listesi </h2>
+
+<dl>
+
+<dt> Ahlak </dt>
+<dd> Bir toplumun en üst genel standartlarını içerir. </dd>
+<dt> Etik</dt>
+<dd> toplumda belirli bir mesleğin işin kurumun veya grubun standartlarından biridir </dd>
+
+</dl>
+
+<hr>
+</body>
+</html>

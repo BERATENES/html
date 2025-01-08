@@ -1,0 +1,82 @@
+
+<!DOCTYPE>
+<html lang ="TR">
+<meta charset="utf-8"/>
+<head>
+<h1>ÖĞRENCİ NOTLARI<h1>
+<hr>
+</head>
+<body>
+<table border="1" cellpadding="5">
+<tr>
+  <th> SIRA NO </th>
+  <th> ADI </th>
+  <th> SOYADI </th>
+  <th> MATEMATİK </th>
+  <th> FİZİK </th>
+  <th> KİMYA </th>
+  <th> BİYOLOJİ </th>
+  <th> ORTALAMA </th>
+ </tr>
+<tr>
+ <td> 1 </td>
+ <td> ali </td>
+ <td> koç </td>
+ <td> 85 </td> 
+ <td> 90 </td>
+ <td> 78 </td>
+ <td> 88 </td>
+ <td> 85,25 </td>
+ </tr>
+<tr>
+ <td> 2 </td>
+ <td> ayşe </td>
+ <td> yıldız </td>
+ <td> 95 </td> 
+ <td> 89 </td>
+ <td> 92 </td>
+ <td> 94 </td>
+ <td> 92,5 </td>
+ </tr>
+<tr>
+ <td> 3 </td>
+ <td> burak </td>
+ <td> demir </td>
+ <td> 76 </td> 
+ <td> 85 </td>
+ <td> 82 </td>
+ <td> 80 </td>
+ <td> 80,75 </td>
+ </tr>
+<tr>
+ <td> 4 </td>
+ <td> cem </td>
+ <td> akın </td>
+ <td> 90 </td> 
+ <td> 88 </td>
+ <td> 82 </td>
+ <td> 80 </td>
+ <td> 88,25 </td>
+ </tr>
+<tr>
+ <td> 5 </td>
+ <td> derya </td>
+ <td> sever </td>
+ <td> 70 </td> 
+ <td> 75 </td>
+ <td> 80 </td>
+ <td> 85 </td>
+ <td> 77,5 </td>
+<tr>
+  <th> SIRA NO </th>
+  <th> ADI </th>
+  <th> SOYADI </th>
+  <th> MATEMATİK </th>
+  <th> FİZİK </th>
+  <th> KİMYA </th>
+  <th> BİYOLOJİ </th>
+  <th> ORTALAMA </th>
+ </tr>
+</table>
+</body>
+</html>

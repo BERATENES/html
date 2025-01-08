@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<htmllang="tr">
+<head>
+<metacharset"utf-8"/>
+</head>
+<body>
+<p>bu benim ücüncü sayfam</p>
+<h1>A</h1>
+<h2>A</h2>
+<h3>A</h3>
+<h4>A</h4>
+<h5>A</h5>
+<h6>A</h6>
+<u>web dersi</u><br/>
+<b>web dersi</b><br/>
+<i>web dersi</i><br/>
+<del>web dersi</del><br/>
+<big>web dersi</big><br/>
+<mark>web dersi</mark><br/>
+x<sup>3</sup>
+</body>
+</head>

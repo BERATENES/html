@@ -1,0 +1,14 @@
+body{
+    background-color: bisque;
+    color: darkred;
+  }
+  p{
+      color: aqua;
+  }
+  ul>li{
+      color: gold;
+      font-size: 25px;
+  }
+  div+p{
+      color: chartreuse;
+  }

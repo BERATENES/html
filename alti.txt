@@ -1,0 +1,43 @@
+<!DOCKTYPE html>
+<html lang="tr">
+<meta charset="utf-8"/>
+<head>
+<h1> HTML METİN BİÇİMLENDİRME VE LİSTE ÖRNEKLERİ </h1>
+</head>
+<body>
+Bu bir <b>kalın</b> metin örneği</br>
+Bu bir <strong>kalın</strong>(strong) metin örneği</br>
+Bu bir <em>italik</em>(em)metin örneği</br>
+Bu bir <i>italik</i> metin örneği</br>
+Bu bir <emins>eklenmiş</ins> metin örneği</br>
+Bu bir <small>küçük</small> metin örneği</br>
+Bu bir <del>silinmiş</del> metin örneği</br>
+Bu bir <sup>üst</sup> metin örneği</br>
+Bu bir <sub>alt</sub> metin örneği</br>
+<hr>
+<h2>LİSTE ÖRNEKLERİ</h2>
+<ol>
+  <li>Vatanseverlik</li>
+<ol type=1>
+  <li>Yardımlaşma</li>
+<ol type=i>
+  <li>Sorumluluk</li>
+<ol type=l>
+  <li>Merhamet</li>
+<ol type=a>
+  <li>Dürüstlük</li>
+<ol type=A>
+  <li>Hoşgörü</li>
+  </ol>
+
+ <ul>
+ <li>Vatanseverlik</li>
+<ul type="square">
+ <li>Yardımlaşma</li>
+<ul type="disc">
+ <li>Sorumluluk</li>
+<ul type="circle">
+ <li>Merhamet</li>
+ </ul>
+</body>
+</html>
