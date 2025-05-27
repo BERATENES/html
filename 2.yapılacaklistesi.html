@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LİST</title>
+    <style>
+        body{
+            font-family: Arial,sans-serif;
+            background-color: bisque;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Düzeltilmiş */
+            margin: 0;
+        }
+        .todo-container{
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px black;
+            width: 300px;
+        }
+        h2{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        input[type="text"]{
+            width: calc(100% - 90px); /* Düzeltilmiş */
+            padding: 8px;
+            margin-right: 5px;
+            border: 1px solid;
+            border-radius: 4px;
+        }
+        button{
+            padding: 8px 12px;
+            border: none;
+            background-color: aqua;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: aquamarine;
+        }
+        ul{
+            list-style-type: none;
+            padding: 0;
+        }
+        li{
+            background: whitesmoke;
+            margin-top: 10px;
+            padding: 8px;
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .remove{
+            color: brown;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="todo-container">
+        <h2>YAPILACAK LİSTESİ</h2>
+        <input type="text" id="task" placeholder="yeni görev ekle...">
+        <button id="addtask">EKLE</button> <!-- id düzeltilmiş -->
+        <ul id="tasklist"></ul>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery eklenmiş -->
+    <script>
+        $(document).ready(function() {
+            // Görev ekleme
+            $('#addtask').click(function() {
+                const task = $('#task').val().trim();
+                if (task !== '') { // Boş görev kontrolü
+                    $('#tasklist').append(`<li>${task}<span class="remove">&#10060;</span></li>`);
+                    $('#task').val(''); // Giriş kutusunu temizle
+                } else {
+                    alert('Lütfen bir görev girin!'); // Uyarı mesajı
+                }
+            });
+
+            // Görev silme
+            $(document).on('click', '.remove', function() {
+                $(this).parent().remove();
+            });
+
+            // Enter tuşu ile görev ekleme
+            $('#task').keypress(function(e) {
+                if (e.which === 13) { // Enter tuşu kontrolü
+                    $('#addtask').click();
+                }
+            });
+        });
+    </script>
+</body>
+</html>

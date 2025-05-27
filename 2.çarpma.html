@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Çarpım Tablosu</title>
+</head>
+<body>
+
+    <h1>Çarpım Tablosu</h1>
+
+    <label for="numberInput">Bir sayı girin:</label>
+    <input type="number" id="numberInput" min="1" placeholder="Sayı girin">
+    <button onclick="generateMultiplicationTable()">Tabloyu Göster</button>
+
+    <div id="multiplication-table"></div>
+
+    <script>
+        function generateMultiplicationTable() {
+            let number = document.getElementById("numberInput").value;
+            let tableDiv = document.getElementById("multiplication-table");
+
+            if (number && number > 0) {
+                let tableHTML = "<table border='1' cellpadding='5' cellspacing='0'>";
+                
+                for (let i = 1; i <= number; i++) {
+                    tableHTML += "<tr>"; 
+
+                    for (let j = 1; j <= number; j++) {
+                        tableHTML += "<td>" + i * j + "</td>"; 
+                    }
+
+                    tableHTML += "</tr>"; 
+                }
+
+                tableHTML += "</table>"; 
+                tableDiv.innerHTML = tableHTML; 
+            } else {
+                tableDiv.innerHTML = "Lütfen geçerli bir sayı girin!";
+            }
+        }
+    </script>
+
+</body>
+</html>

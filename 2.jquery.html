@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+</head>
+<body>
+    <input type="text" id="metinkutusu" value="Merhaba">
+    <button id="degistirbutton">DEĞİŞTİR</button>
+
+    <script>
+ $(document).ready(function(){
+    $("addegistirbutton").click(function(){
+        $("metinkutusu").val("jqery ile değiştirildi !");
+    });
+ });
+
+    </script>
+
+</body>
+</html>

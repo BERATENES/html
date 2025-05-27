@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taş Kağıt Makas</title>
+    <style>
+        body {
+            background-color: black; /* Arka plan kırmızı */
+            color: white; /* Yazı rengi beyaz */
+            text-align: center; /* Yazıyı ortala */
+            font-family: Arial, sans-serif;
+        }
+        button {
+            margin: 10px; /* Butonlar arası boşluk */
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        #result {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Taş Kağıt Makas Oyunu</h1>
+    <p>Seçiminizi yapın:</p>
+    <button onclick="playGame('taş')">Taş</button>
+    <button onclick="playGame('kağıt')">Kağıt</button>
+    <button onclick="playGame('makas')">Makas</button>
+    <button onclick="clearResult()">Temizle</button> <!-- Temizle butonu -->
+
+    <h2>Sonuç:</h2>
+    <p id="result"></p>
+
+    <script>
+        function playGame(playerChoice) {
+            const choices = ["taş", "kağıt", "makas"];
+            const computerChoice = choices[Math.floor(Math.random() * choices.length)];
+
+            let resultText = `Senin seçimin: ${playerChoice}<br>`;
+            resultText += `Bilgisayarın seçimi: ${computerChoice}<br>`;
+
+            if (playerChoice === computerChoice) {
+                resultText += "Berabere!";
+            } else if (
+                (playerChoice === "taş" && computerChoice === "makas") ||
+                (playerChoice === "kağıt" && computerChoice === "taş") ||
+                (playerChoice === "makas" && computerChoice === "kağıt")
+            ) {
+                resultText += "Kazandın!";
+            } else {
+                resultText += "Kaybettin!";
+            }
+
+            document.getElementById("result").innerHTML = resultText;
+        }
+
+        function clearResult() {
+            document.getElementById("result").innerHTML = ""; // Sonucu temizle
+        }
+    </script>
+</body>
+</html>

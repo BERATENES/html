@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Mini Quiz</title>
+</head>
+<body>
+
+<script>
+      let dogruSayisi = 0;
+      let yanlisSayisi = 0;
+    {
+  // Soru
+  let cevap = prompt("1) FiveM'de 'ESX' nedir?\nA) Grafik Modu\nB) Araç Modu\nC) Ekonomi Sistemi\nD) Polis Sistemi");
+
+  // Kontrol
+  if (cevap.toUpperCase() === "C") {
+    alert("Doğru cevap! 👏");
+    dogruSayisi++;
+  } else {
+    alert("Yanlış cevap! Doğru cevap: C) Ekonomi Sistemi");
+    yanlisSayisi++;
+  }
+    }
+
+  {
+    // Soru
+    let cevap = prompt("2) mixing nedir?\nA) Rolleri karıştırmak\nB) Gerçek hayatta yapamayacağınız şeyleri oyunda yapmak\nC) Rol dışında öğrendiğimiz bilgileri role dahil etmek\nD) Roldeyken oyundan çıkmaktır");
+
+// Kontrol
+if (cevap.toUpperCase() === "A") {
+  alert("Doğru cevap! 👏");
+  dogruSayisi++;
+} else {
+  alert("Yanlış cevap! Doğru cevap: A) Rolleri karıştırmak");
+  yanlisSayisi++;
+}
+  }
+
+  {
+    // Soru
+    let cevap = prompt("3) /me komutu ne işe yarar?\nA) Araba çağırır\nB) Animasyon başlatır\nC) Rol bilgisini yazar\nD) Oyuncu vurur");
+
+// Kontrol
+if (cevap.toUpperCase() === "C") {
+  alert("Doğru cevap! 👏");
+  dogruSayisi++;
+} else {
+  alert("Yanlış cevap! Doğru cevap: C) Rol bilgisini yazar");
+  yanlisSayisi++;
+}
+  }
+
+  {
+    // Soru
+    let cevap = prompt("4) RP'de 'fail RP' ne demek?\nA) Rolü eksiksiz yapmak\nB) Rolde başarısızlık\nC) Rolü kurallara aykırı bozmak\nD) Rolü kaybetmek");
+
+// Kontrol
+if (cevap.toUpperCase() === "C") {
+  alert("Doğru cevap! 👏");
+  dogruSayisi++;
+} else {
+  alert("Yanlış cevap! Doğru cevap: C) Rolü kurallara aykırı bozmak");
+  yanlisSayisi++;
+}
+  }
+
+  {
+    // Soru
+    let cevap = prompt("5) /do komutu ne işe yarar?\nA) Rolde sonucu belirtir\nB) Eşyayı verir\nC) Silah çeker\nD) Admin çağırır");
+
+// Kontrol
+if (cevap.toUpperCase() === "A") {
+  alert("Doğru cevap! 👏");
+  dogruSayisi++;
+} else {
+  alert("Yanlış cevap! Doğru cevap:A) Rolde sonucu belirtir");
+  yanlisSayisi++;
+}
+  }
+
+  {
+    // Soru
+    let cevap = prompt("6) 'Whitelist' sunucu ne demektir?\nA) Herkes girebilir\nB) Sadece izinli kişiler girebilir\nC) Banlı kişilerin girdiği\nD) Bot sunucu");
+
+// Kontrol
+if (cevap.toUpperCase() === "B") {
+  alert("Doğru cevap! 👏");
+  dogruSayisi++;
+} else {
+  alert("Yanlış cevap! Doğru cevap: B) Sadece izinli kişiler girebilir");
+  yanlisSayisi++;
+}
+  }
+
+  {
+    // Soru
+    let cevap = prompt("7) 'noclip' yetkisi kimde olur?\nA) Oyuncu\nB) EMS\nC) Admin\nD) Polis");
+
+// Kontrol
+if (cevap.toUpperCase() === "C") {
+  alert("Doğru cevap! 👏");
+  dogruSayisi++;
+} else {
+  alert("Yanlış cevap! Doğru cevap: C) Admin");
+  yanlisSayisi++;
+}
+  }
+
+  {
+    // Soru
+    let cevap = prompt("8) 'MLO' neyi ifade eder?\nA) İç mekan harita objesi\nB) Silah modeli\nC) Araç sesi\nD) Hile programı");
+
+// Kontrol
+if (cevap.toUpperCase() === "A") {
+  alert("Doğru cevap! 👏");
+  dogruSayisi++;
+} else {
+  alert("Yanlış cevap! Doğru cevap: A) İç mekan harita objesi");
+  yanlisSayisi++;
+}
+  }
+
+  {
+    // Soru
+    let cevap = prompt("9) 'item' dosyası neyi tanımlar?\nA) Kıyafet rengini\nB) Envanterdeki eşyaları\nC) Harita konumunu\nD) Oyuncu skinini");
+
+// Kontrol
+if (cevap.toUpperCase() === "B") {
+  alert("Doğru cevap! 👏");
+  dogruSayisi++;
+} else {
+  alert("Yanlış cevap! Doğru cevap: B) Envanterdeki eşyaları");
+  yanlisSayisi++;
+}
+  }
+
+  {
+    // Soru
+    let cevap = prompt("10) 'anticheat' sistemleri ne işe yarar?\nA) FPS arttırır\nB) Grafik düzeltir\nC) Hileleri engeller\nD) Sunucuya skin atar");
+
+// Kontrol
+if (cevap.toUpperCase() === "C") {
+  alert("Doğru cevap! 👏");
+  dogruSayisi++;
+} else {
+  alert("Yanlış cevap! Doğru cevap: C) Hileleri engeller");
+  yanlisSayisi++;
+}
+  }
+
+ // Sonuçları göster
+ alert(`Test bitti! Doğru sayısı: ${dogruSayisi}, Yanlış sayısı: ${yanlisSayisi}`);
+</script>
+
+</body>
+</html>
